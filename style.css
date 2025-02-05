@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+     
+     body{
+          color: hsl(234, 12%, 34%);
+          margin-left: 5vw;
+          margin-right: 5vw;
+          font-family: "Poppins", serif;
+     }
+
+     main{
+          display: grid;
+          grid-template-columns: 1fr;
+          align-items: center;
+          gap: 20px;
+     }
+
+     .textbox{
+     width: 90vw;
+     display: flex;
+     flex-direction: column;
+     height: 400px;
+     text-align: center;
+     justify-content: center;
+     margin-bottom: 20px;    
+     }
+
+     .textbox > h2{
+          font-weight: 400;
+     }
+     
+
+ 
+
+     main .container{
+          width: 90vw;
+          height: 200px;
+          position: relative;
+          box-shadow: 5px 5px 10px hsl(229, 6%, 66%);
+          border-radius: 10px;
+     
+     }
+
+
+     main .container > h3{
+          margin: 0;
+          font-size: 30px;
+          font-weight: 600;
+          margin-left: 20px;
+          margin-top: 20px;
+     }
+
+     main .container > p{
+          max-width: 60vw;
+          height: 50px;
+          font-size: 16px;
+          position: absolute;
+          margin-left: 10px;
+          margin-top: 0;
+     }
+
+     main .container .icon{
+          position: absolute;
+          right: 5px;
+          bottom: 5px;
+     }
+
+
+
+     .one {
+          border-top: 7px solid hsl(180, 62%, 55%);
+         }
+
+     .two {
+     border-top: 7px solid hsl(0, 78%, 62%);
+      }
+
+      .three {
+          border-top: 7px solid hsl(34, 97%, 64%);
+     }
+
+     .four {
+     border-top: 7px solid hsl(212, 86%, 64%);
+      }
+     
+     
+footer{
+     margin-bottom: 0;
+     width: 100%;
+     justify-content: center;
+}
+    
+
+    
+
+
+}
